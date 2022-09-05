@@ -1,0 +1,113 @@
+
+img{
+
+    width: 48px;
+    margin-left: 84px;
+    margin-top: 40px;
+
+}
+
+.all{
+
+    /* Encriptador - 1 Desktop */
+
+
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    /* Light blue/light-blue-100 */
+
+    background: #F3F5FC;
+
+}
+
+.encriptador{
+
+    position: absolute;
+    width: 720px;
+    top: 168px;
+    bottom: 72px;
+    left: 240px;
+    display: inline-block;
+}
+
+#mensaje{
+
+
+    position: absolute;
+    top: 0px;
+    width: 680px;
+    height: 500px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+    text-transform:lowercase;
+
+}
+
+
+
+.botones{
+
+    width: 700px;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    bottom: 0px;
+
+}
+
+.encriptar{
+
+    /* Button */
+
+    width: 328px;
+    height: 67px;
+    margin-right: 12px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 24px;
+    border: none;
+    
+}
+
+
+.desencriptar{
+
+    /* Button */
+
+    width: 328px;
+    height: 67px;
+    margin-left: 12px;
+
+    /* Light gray */
+
+    background: #D8DFE8;
+
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+}
+
+.encriptado{
+
+    width: 400px;
+    height: 940px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    border-radius: 32px;
+    
+}
